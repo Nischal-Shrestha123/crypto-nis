@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* adding custom css */
+@layer base {
+    body {
+        @apply bg-gradient-to-br from-gray-950 to-gray-900;
+        @apply bg-no-repeat;
+        @apply min-h-screen;
+        @apply text-white;
+    }
+
+    th {
+        @apply py-2;
+    }
+
+    td {
+        @apply py-1;
+    }
+}
